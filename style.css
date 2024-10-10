@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css2?family=Quantico:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Quantico', sans-serif;
+  background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: rgba(39, 44, 61, 1)   ;
+    padding: 22px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 210px;
+}
+
+li a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    margin-right: 38px;
+    padding: 5px;
+    width: 241px;
+    height: 30px;
+    background-color: rgba(64, 72, 100, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+li a:hover {
+    color: rgba(255, 156, 40, 1);
+}
+
+main  {
+    background-image: url(img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-major {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#bg {
+    width: 100%;
+    background-color: black;
+    margin-bottom: 45px;
+}
+
+.container-major h1 {
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    color: white;
+}
+
+.cards1  {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 45px   ;
+}
+
+.card img {
+    width: 44px;
+    height: 44px;
+}
+
+.cards1 {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.container-champ {
+    max-width: 1189px;
+    max-height: 928px;
+    background-color: rgba(27, 30, 39, 1);
+    margin: 0 auto;
+    padding: 61px  245px;
+}
+
+.card2 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 142px;
+    margin-top: 30px;
+}
+
+.container-champ h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text p {
+    width: 323px;
+    color: rgba(191, 191, 191, 1);
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 17px;
+}
+
+.container-foot {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 90%; 
+    justify-content: space-between;
+    padding: 27px;
+}
+
+.nav-foot ul {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    gap: 25px;
+}
+
+footer {
+    background-color: rgba(39, 44, 61, 1);
+}
